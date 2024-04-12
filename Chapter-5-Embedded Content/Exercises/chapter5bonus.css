@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('baa.jpg'); /* Change 'background_image.jpg' to the path of your background image */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#soundboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.sample-button {
+    background-color: #0026ff;
+    color: white;
+    border: none;
+    padding: 30px; /* Increase padding to make the boxes bigger */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sample-button:hover {
+    background-color: #bf45ab;
+}
+
+#audio-container {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+#audio-box {
+    display: inline-block;
+}
