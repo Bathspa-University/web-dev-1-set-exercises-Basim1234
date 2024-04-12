@@ -1,0 +1,107 @@
+body{
+    background-color: beige;
+}
+
+*{
+    text-decoration: none;
+}
+
+.navbar{
+    background: rosybrown;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navbar a .logo {
+    font-size: 50px;
+    font-weight: 600;
+    color:red;
+}
+
+.navbar ul li a{
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: 20px;
+    color: peachpuff;
+}
+
+.navbar a{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+    
+}
+
+.navbar li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: small;
+}
+
+.plot{
+    background-color: rosybrown;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    width: 510px;
+    margin-left: 260px;
+
+}
+
+.key{
+    background-color: rosybrown;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    width: 510px;
+    margin-left: 260px;
+
+}
+
+.Cast {
+    background-color: rosybrown;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    list-style: none;
+    width: 510px;
+    margin-left: 260px;
+}
+
+.Characters {
+    background-color: rosybrown;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    list-style-type: none;
+    width: 510px;
+    margin-left: 260px;
+
+}
+
+.Reviews{
+    background-color: rosybrown;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    width: 510px;
+    margin-left: 260px;
+    
+}
+
+.Characters li, .Cast li, .key li{
+   
+ text-align: left;
+    justify-content: center;
+}
+
