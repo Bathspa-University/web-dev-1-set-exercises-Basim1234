@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="chapter6.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Petrol Calculator</h1>
+        <div class="input-container">
+            <label for="petrol-cost">Cost of Petrol per Liter (in AED):</label>
+            <input type="number" id="petrol-cost" step="0.01" value="3.03">
+        </div>
+        <div class="input-container">
+            <label for="liters-purchased">Liters Purchased:</label>
+            <input type="number" id="liters-purchased" step="0.01" value="0">
+        </div>
+        <button id="calculate-btn">Calculate Total Cost</button>
+        <div id="result" class="result-container"></div>
+    </div>
+    <script src="./index.js"></script>
+    <script>
+        document.getElementById('calculate-btn').addEventListener('click', function() {
+            // Get the values
+            var petrolCostPerLiter = parseFloat(document.getElementById('petrol-cost').value);
+            var litersPurchased = parseFloat(document.getElementById('liters-purchased').value);
+ // Calculate total cost in AED
+ var totalCostAED = petrolCostPerLiter * litersPurchased;
+
+// Display result
+document.getElementById('result').innerHTML = 'Total Cost: ' + totalCostAED.toFixed(2) + ' AED';
+});
+</script>
+</body>
+</html>
