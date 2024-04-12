@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+.container {
+    width: 80%;       /* Set container width */
+    margin: 0 auto;    /* Center container horizontally */
+    overflow: hidden;
+}
+
+header {
+    background-color: #17072b;
+    color: #fff;
+    padding: 30px 0;
+    overflow: hidden;    /* Clear floats */
+    text-align: center;  /* Center the content */
+}
+
+header .container {
+    display: flex;
+    justify-content: center;   /* Center horizontally */
+    align-items: center;     
+}
+
+header h1 {
+    font-family: Tahoma, sans-serif;    /* Set font family */
+    text-decoration: underline;   /* Add underline */
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+    flex: 1;   /* Allow the heading to grow to fill the space */
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;   /* Remove default list styles */
+    margin: 0;    /* Reset margin */
+    padding: 0;    /* Reset padding */
+}
+
+nav ul li {
+    display: inline;    
+    margin-left: 20px;    /* Add left margin */
+}
+
+nav ul li a {
+    text-decoration: none;    /* Remove underline from links */
+    color: #fff;
+    font-size: 24px;
+}
+
+main {
+    display: flex;   /* Use flexbox for layout */
+}
+
+section {
+    flex: 1;
+    padding: 0 20px;   /* Add padding */
+}
+aside {
+    width: 350px;   /* Set a fixed width */
+    padding: 0 20px;
+    background-color: #172d67;
+    color: #fff;
+}
+
+#line-up {
+    margin-top: 40px;    /* Add top margin */
+    display: flex;       /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+#line-up ul {
+    padding-left: 0;    /* Remove default padding */
+    margin-left: 0;    /* Remove default margin */
+}
+
+#line-up ul li {
+    list-style: none;
+    margin-left: 0;     /* Remove default list item margin */
+    margin-bottom: 30px;   /* Add bottom margin */
+}
+
+#line-up .images {
+    margin-top: auto;   /* Push images to the bottom */
+    display: flex;      /* Use flexbox for layout */
+    justify-content: center;
+    align-items: flex-end; /* Align items to the bottom */
+}
+
+#line-up .images img {
+    margin: 0 10px;    /* Add some spacing between the images */
+    width: 300px;
+    height: 180px;
+}
+
+footer {
+    background-color: #8c15e9;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;     /* Fixed position at the bottom */
+    bottom: 0;    /* Stick to the bottom */
+    width: 100%;
+}
+
+footer p {
+    margin: 0;   /* Reset paragraph margin */
+}
+
+#welcome img {
+    display: block;
+    margin: 30px auto;    /* Center the image horizontally and add space around it */
+    max-width: 80%;
+    
+}
+
+#welcome h2, #line-up h2 {
+    text-decoration: underline;    /* Underline for headings */
+}
