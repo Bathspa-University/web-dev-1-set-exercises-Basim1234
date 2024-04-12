@@ -1,0 +1,149 @@
+body{
+    background-color: peachpuff;
+
+}
+h1{
+   text-align: center;
+   float: left;
+   margin-left: 25px;
+   margin-top: 5px;
+   font-weight: 600;
+   font-family: sans-serif;
+}
+h1 b{
+    color:#ff511c;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: peachpuff;
+    padding: 0px;
+    margin :5px;
+    overflow:hidden
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+
+.navbar a:hover{
+    background-color:rgb(121, 112, 103) ;
+}
+.navbar li{
+    float: right;
+    font-size: 18px;
+    margin-right: 20px;
+    
+   
+    
+    
+    
+}
+.content{
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 30px;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.content .content-left{
+    display: block;
+    width: 100%;
+
+}
+
+.content .content-left .info{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content .content-left .info h2{
+    font-size: 55px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    margin-left: 25px ;
+    margin-top: -30px;
+    color: black;
+    font-weight: bold;
+    
+    
+
+
+}
+
+.content .content-left .info p{
+    font-size: 18px;
+    line-height: 2pc;
+    margin-bottom: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 25px;
+
+}
+
+.content .content-right{
+    display: block;
+    width: 100%;
+
+}
+
+.content .content-right img{
+    width: 450px;
+    height: 500px;
+    position:relative;
+    margin-top: -70px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.col1{
+    color: peachpuff;
+    background-color: grey;
+    width: 210px;
+    float: left;
+    padding: 25px;
+    box-sizing: border-box;
+    height: 473.62px;
+    font-family: sans-serif;
+
+}
+
+.col2{
+    color: peachpuff;
+    background-color: grey;
+    width: 900px;
+    float: right;
+    padding: 25px;
+    box-sizing: border-box;
+    height: auto;
+    margin-right: -560px;
+   justify-content: space-around;
+   font-family: sans-serif;
+   
+}
+
+h2{
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+img{
+    width: 200;
+    height: 300;
+}
+
